@@ -8,6 +8,19 @@ from fastapi.middleware.cors import CORSMiddleware
 import requests
 from fastapi import HTTPException
 import os
+from dotenv import load_dotenv
+
+def load_config():
+    env = os.getenv('ENVIRONMENT', 'development')
+    
+    if env == 'production':
+        # In production, rely on k8s ENV vars, .env is backup
+        load_dotenv('.env.prod', override=False)
+    else:
+        # In development, use .env file
+        load_dotenv('.env.local', override=True)
+
+load_config()
 
 N8N_WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL")
 DATABASE_URL = os.getenv("DATABASE_URL")
@@ -33,6 +46,16 @@ async def get_session():
 @app.get("/hello-world")
 def read_root():
     return {"message": "Hello World"}
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
+
+@app.get("/environment-check")
+def environment_check():
+    return {
+        "ENVIRONMENT": os.getenv("ENVIRONMENT")
+    }
 
 @app.get("/users")
 async def get_users(session: AsyncSession = Depends(get_session)):
