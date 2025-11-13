@@ -15,10 +15,10 @@ def load_config():
     
     if env == 'production':
         # In production, rely on k8s ENV vars, .env is backup
-        load_dotenv('.env.prod', override=False)
+        load_dotenv('.env.production', override=False)
     else:
         # In development, use .env file
-        load_dotenv('.env.local', override=True)
+        load_dotenv('.env.development', override=True)
 
 load_config()
 
@@ -51,10 +51,12 @@ def read_root():
 def health_check():
     return {"status": "ok"}
 
-@app.get("/environment-check")
+@app.get("/env")
 def environment_check():
     return {
-        "ENVIRONMENT": os.getenv("ENVIRONMENT")
+        "ENVIRONMENT": os.getenv("ENVIRONMENT"),
+        "MANDONG_HELLO": os.getenv("MANDONG_HELLO"),
+        "ENV_ENVIRONMENT": os.getenv("ENV_ENVIRONMENT")
     }
 
 @app.get("/users")
