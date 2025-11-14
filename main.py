@@ -24,13 +24,13 @@ load_config()
 
 N8N_WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL")
 DATABASE_URL = os.getenv("DATABASE_URL")
-FRONT_END_LOCAL_URL = os.getenv("FRONT_END_LOCAL_URL")
+FRONTEND_URL = os.getenv("FRONTEND_URL")
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONT_END_LOCAL_URL],  # Frontend origin
+    allow_origins=[FRONTEND_URL],  # Frontend origin
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers
