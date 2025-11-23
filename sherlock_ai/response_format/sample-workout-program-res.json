@@ -1,0 +1,1537 @@
+{
+    "user_id": "name4",
+    "start_date": "2025-11-18",
+    "total_days": 30,
+    "notes_from_coach": "BMI: 24.2 (normal). Split: Tue Push, Wed Pull, Thu Legs, Fri Upper, Sat Full Body. Track weights weekly: +5-10% per phase (base→increase 10-20%→peak +supersets→maintain→deload -20%). Log actuals. Increase weight next session if top reps achieved.",
+    "plan": [
+        {
+            "day": 1,
+            "date": "2025-11-18",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Barbell Bench Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "15-20kg"
+                    },
+                    {
+                        "name": "Seated Overhead Press",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "8-12kg"
+                    },
+                    {
+                        "name": "Incline DB Press",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "8-10kg DBs"
+                    },
+                    {
+                        "name": "Tricep Pushdowns",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "10kg"
+                    },
+                    {
+                        "name": "Lateral Raises",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "3-5kg DBs"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Chest and shoulder stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Tricep stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "50 min",
+                "focus": "Push"
+            }
+        },
+        {
+            "day": 2,
+            "date": "2025-11-19",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Lat Pulldown",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "30-40kg"
+                    },
+                    {
+                        "name": "Seated Cable Row",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "20-25kg"
+                    },
+                    {
+                        "name": "Single Arm DB Row",
+                        "sets": 3,
+                        "reps": "10-12 per arm",
+                        "rest": "60s",
+                        "estimated_weight": "10kg DB"
+                    },
+                    {
+                        "name": "Face Pulls",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "10kg"
+                    },
+                    {
+                        "name": "DB Bicep Curls",
+                        "sets": 3,
+                        "reps": "12",
+                        "rest": "45s",
+                        "estimated_weight": "6-8kg DBs"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Upper back stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Bicep and forearm stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "50 min",
+                "focus": "Pull"
+            }
+        },
+        {
+            "day": 3,
+            "date": "2025-11-20",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Leg swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light treadmill walk",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Back Squat",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "120s",
+                        "estimated_weight": "40-50kg"
+                    },
+                    {
+                        "name": "Romanian Deadlift",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "40-50kg"
+                    },
+                    {
+                        "name": "Walking Lunges",
+                        "sets": 3,
+                        "reps": "12 per leg",
+                        "rest": "60s",
+                        "estimated_weight": "10kg DBs"
+                    },
+                    {
+                        "name": "Leg Extensions",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "60s",
+                        "estimated_weight": "20-30kg"
+                    },
+                    {
+                        "name": "Standing Calf Raises",
+                        "sets": 3,
+                        "reps": "15",
+                        "rest": "45s",
+                        "estimated_weight": "30kg"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Quad and hamstring stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Calf stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "55 min",
+                "focus": "Legs"
+            }
+        },
+        {
+            "day": 4,
+            "date": "2025-11-21",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Incline Bench Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "15-20kg"
+                    },
+                    {
+                        "name": "Lat Pulldown",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "30-40kg"
+                    },
+                    {
+                        "name": "Arnold Press",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "8kg DBs"
+                    },
+                    {
+                        "name": "Hammer Curls",
+                        "sets": 3,
+                        "reps": "12",
+                        "rest": "45s",
+                        "estimated_weight": "6kg DBs"
+                    },
+                    {
+                        "name": "Overhead Tricep Extension",
+                        "sets": 3,
+                        "reps": "12",
+                        "rest": "45s",
+                        "estimated_weight": "10kg"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Upper body stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Arm stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "50 min",
+                "focus": "Upper Body"
+            }
+        },
+        {
+            "day": 5,
+            "date": "2025-11-22",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Full body dynamic swings",
+                        "duration": "4 min"
+                    },
+                    {
+                        "name": "Light bike or rower",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Conventional Deadlift",
+                        "sets": 4,
+                        "reps": "8-10",
+                        "rest": "120s",
+                        "estimated_weight": "50kg"
+                    },
+                    {
+                        "name": "Bench Press",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "15-20kg"
+                    },
+                    {
+                        "name": "Goblet Squat",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "16kg DB"
+                    },
+                    {
+                        "name": "Bent Over Rows",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "10kg DBs"
+                    },
+                    {
+                        "name": "Overhead Press",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "8-12kg"
+                    },
+                    {
+                        "name": "Plank",
+                        "sets": 3,
+                        "reps": "30-45s",
+                        "rest": "45s",
+                        "estimated_weight": "bodyweight"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Full body stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Deep breathing",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "60 min",
+                "focus": "Full Body"
+            }
+        },
+        {
+            "day": 6,
+            "date": "2025-11-23",
+            "type": "rest"
+        },
+        {
+            "day": 7,
+            "date": "2025-11-24",
+            "type": "rest"
+        },
+        {
+            "day": 8,
+            "date": "2025-11-25",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Barbell Bench Press",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "90s",
+                        "estimated_weight": "20-25kg"
+                    },
+                    {
+                        "name": "Seated Overhead Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "10-15kg"
+                    },
+                    {
+                        "name": "Incline DB Press",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "60s",
+                        "estimated_weight": "10-12kg DBs"
+                    },
+                    {
+                        "name": "Tricep Pushdowns",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "12-15kg"
+                    },
+                    {
+                        "name": "Lateral Raises",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "4-6kg DBs"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Chest and shoulder stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Tricep stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "50 min",
+                "focus": "Push"
+            }
+        },
+        {
+            "day": 9,
+            "date": "2025-11-26",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Lat Pulldown",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "90s",
+                        "estimated_weight": "40-50kg"
+                    },
+                    {
+                        "name": "Seated Cable Row",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "25-30kg"
+                    },
+                    {
+                        "name": "Single Arm DB Row",
+                        "sets": 3,
+                        "reps": "12 per arm",
+                        "rest": "60s",
+                        "estimated_weight": "12kg DB"
+                    },
+                    {
+                        "name": "Face Pulls",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "12kg"
+                    },
+                    {
+                        "name": "DB Bicep Curls",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "8-10kg DBs"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Upper back stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Bicep and forearm stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "50 min",
+                "focus": "Pull"
+            }
+        },
+        {
+            "day": 10,
+            "date": "2025-11-27",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Leg swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light treadmill walk",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Back Squat",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "120s",
+                        "estimated_weight": "45-55kg"
+                    },
+                    {
+                        "name": "Romanian Deadlift",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "45-55kg"
+                    },
+                    {
+                        "name": "Walking Lunges",
+                        "sets": 3,
+                        "reps": "12-15 per leg",
+                        "rest": "60s",
+                        "estimated_weight": "12kg DBs"
+                    },
+                    {
+                        "name": "Leg Extensions",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "60s",
+                        "estimated_weight": "25-35kg"
+                    },
+                    {
+                        "name": "Standing Calf Raises",
+                        "sets": 3,
+                        "reps": "15-20",
+                        "rest": "45s",
+                        "estimated_weight": "35kg"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Quad and hamstring stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Calf stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "55 min",
+                "focus": "Legs"
+            }
+        },
+        {
+            "day": 11,
+            "date": "2025-11-28",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Incline Bench Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "20-25kg"
+                    },
+                    {
+                        "name": "Lat Pulldown",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "40-50kg"
+                    },
+                    {
+                        "name": "Arnold Press",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "10kg DBs"
+                    },
+                    {
+                        "name": "Hammer Curls",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "8kg DBs"
+                    },
+                    {
+                        "name": "Overhead Tricep Extension",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "12kg"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Upper body stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Arm stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "50 min",
+                "focus": "Upper Body"
+            }
+        },
+        {
+            "day": 12,
+            "date": "2025-11-29",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Full body dynamic swings",
+                        "duration": "4 min"
+                    },
+                    {
+                        "name": "Light bike or rower",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Conventional Deadlift",
+                        "sets": 4,
+                        "reps": "8-10",
+                        "rest": "120s",
+                        "estimated_weight": "55-60kg"
+                    },
+                    {
+                        "name": "Bench Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "20-25kg"
+                    },
+                    {
+                        "name": "Goblet Squat",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "20kg DB"
+                    },
+                    {
+                        "name": "Bent Over Rows",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "12kg DBs"
+                    },
+                    {
+                        "name": "Overhead Press",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "10-15kg"
+                    },
+                    {
+                        "name": "Plank",
+                        "sets": 3,
+                        "reps": "45-60s",
+                        "rest": "45s",
+                        "estimated_weight": "bodyweight"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Full body stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Deep breathing",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "60 min",
+                "focus": "Full Body"
+            }
+        },
+        {
+            "day": 13,
+            "date": "2025-11-30",
+            "type": "rest"
+        },
+        {
+            "day": 14,
+            "date": "2025-12-01",
+            "type": "rest"
+        },
+        {
+            "day": 15,
+            "date": "2025-12-02",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Barbell Bench Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "25-30kg",
+                        "notes": "Superset with Lateral Raises on last set"
+                    },
+                    {
+                        "name": "Seated Overhead Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "12-15kg"
+                    },
+                    {
+                        "name": "Incline DB Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "12-15kg DBs"
+                    },
+                    {
+                        "name": "Tricep Pushdowns",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "15-20kg"
+                    },
+                    {
+                        "name": "Lateral Raises",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "5-7kg DBs"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Chest and shoulder stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Tricep stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "55 min",
+                "focus": "Push"
+            }
+        },
+        {
+            "day": 16,
+            "date": "2025-12-03",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Lat Pulldown",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "45-55kg",
+                        "notes": "Drop set on last set"
+                    },
+                    {
+                        "name": "Seated Cable Row",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "30-35kg"
+                    },
+                    {
+                        "name": "Single Arm DB Row",
+                        "sets": 4,
+                        "reps": "10-12 per arm",
+                        "rest": "60s",
+                        "estimated_weight": "14kg DB"
+                    },
+                    {
+                        "name": "Face Pulls",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "15kg"
+                    },
+                    {
+                        "name": "DB Bicep Curls",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "10kg DBs"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Upper back stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Bicep and forearm stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "55 min",
+                "focus": "Pull"
+            }
+        },
+        {
+            "day": 17,
+            "date": "2025-12-04",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Leg swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light treadmill walk",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Back Squat",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "120s",
+                        "estimated_weight": "50-60kg",
+                        "notes": "Superset with Calf Raises last set"
+                    },
+                    {
+                        "name": "Romanian Deadlift",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "50-60kg"
+                    },
+                    {
+                        "name": "Walking Lunges",
+                        "sets": 4,
+                        "reps": "12 per leg",
+                        "rest": "60s",
+                        "estimated_weight": "14-16kg DBs"
+                    },
+                    {
+                        "name": "Leg Extensions",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "60s",
+                        "estimated_weight": "30-40kg"
+                    },
+                    {
+                        "name": "Standing Calf Raises",
+                        "sets": 4,
+                        "reps": "15-20",
+                        "rest": "45s",
+                        "estimated_weight": "40kg"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Quad and hamstring stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Calf stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "60 min",
+                "focus": "Legs"
+            }
+        },
+        {
+            "day": 18,
+            "date": "2025-12-05",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Incline Bench Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "22-27kg",
+                        "notes": "Drop set last set"
+                    },
+                    {
+                        "name": "Lat Pulldown",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "45-55kg"
+                    },
+                    {
+                        "name": "Arnold Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "12kg DBs"
+                    },
+                    {
+                        "name": "Hammer Curls",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "10kg DBs"
+                    },
+                    {
+                        "name": "Overhead Tricep Extension",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "15kg"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Upper body stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Arm stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "55 min",
+                "focus": "Upper Body"
+            }
+        },
+        {
+            "day": 19,
+            "date": "2025-12-06",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Full body dynamic swings",
+                        "duration": "4 min"
+                    },
+                    {
+                        "name": "Light bike or rower",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Conventional Deadlift",
+                        "sets": 4,
+                        "reps": "8-10",
+                        "rest": "120s",
+                        "estimated_weight": "60-65kg",
+                        "notes": "Superset Deadlift and Plank last set"
+                    },
+                    {
+                        "name": "Bench Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "25-30kg"
+                    },
+                    {
+                        "name": "Goblet Squat",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "22-24kg DB"
+                    },
+                    {
+                        "name": "Bent Over Rows",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "14kg DBs"
+                    },
+                    {
+                        "name": "Overhead Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "12-15kg"
+                    },
+                    {
+                        "name": "Plank",
+                        "sets": 4,
+                        "reps": "45-60s",
+                        "rest": "45s",
+                        "estimated_weight": "bodyweight"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Full body stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Deep breathing",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "60 min",
+                "focus": "Full Body"
+            }
+        },
+        {
+            "day": 20,
+            "date": "2025-12-07",
+            "type": "rest"
+        },
+        {
+            "day": 21,
+            "date": "2025-12-08",
+            "type": "rest"
+        },
+        {
+            "day": 22,
+            "date": "2025-12-09",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Dumbbell Bench Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "12-15kg DBs",
+                        "notes": "Variety swap from barbell"
+                    },
+                    {
+                        "name": "Machine Shoulder Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "20-25kg"
+                    },
+                    {
+                        "name": "Chest Fly Machine",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "15-20kg"
+                    },
+                    {
+                        "name": "Tricep Dips (assisted)",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "bodyweight +10kg"
+                    },
+                    {
+                        "name": "Lateral Raises",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "5-7kg DBs"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Chest and shoulder stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Tricep stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "55 min",
+                "focus": "Push"
+            }
+        },
+        {
+            "day": 23,
+            "date": "2025-12-10",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Pull-Ups (assisted)",
+                        "sets": 4,
+                        "reps": "8-10",
+                        "rest": "90s",
+                        "estimated_weight": "assisted 20-30kg"
+                    },
+                    {
+                        "name": "T-Bar Row",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "25-30kg"
+                    },
+                    {
+                        "name": "Chest Supported DB Row",
+                        "sets": 4,
+                        "reps": "10-12 per arm",
+                        "rest": "60s",
+                        "estimated_weight": "14kg DB"
+                    },
+                    {
+                        "name": "Rear Delt Fly",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "5kg DBs"
+                    },
+                    {
+                        "name": "Concentration Curls",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "10kg DB"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Upper back stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Bicep stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "55 min",
+                "focus": "Pull"
+            }
+        },
+        {
+            "day": 24,
+            "date": "2025-12-11",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Leg swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light treadmill walk",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Front Squat",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "120s",
+                        "estimated_weight": "40-50kg",
+                        "notes": "Variety from back squat"
+                    },
+                    {
+                        "name": "Leg Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "80-100kg"
+                    },
+                    {
+                        "name": "Bulgarian Split Squats",
+                        "sets": 4,
+                        "reps": "10 per leg",
+                        "rest": "60s",
+                        "estimated_weight": "10-12kg DBs"
+                    },
+                    {
+                        "name": "Leg Curls",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "60s",
+                        "estimated_weight": "25-35kg"
+                    },
+                    {
+                        "name": "Seated Calf Raises",
+                        "sets": 4,
+                        "reps": "15-20",
+                        "rest": "45s",
+                        "estimated_weight": "30-40kg"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Quad and hamstring stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Calf stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "60 min",
+                "focus": "Legs"
+            }
+        },
+        {
+            "day": 25,
+            "date": "2025-12-12",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Decline Bench Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "20-25kg",
+                        "notes": "Variety incline to decline"
+                    },
+                    {
+                        "name": "Seated Row Machine",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "35-40kg"
+                    },
+                    {
+                        "name": "Upright Rows",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "10-15kg bar"
+                    },
+                    {
+                        "name": "Preacher Curls",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "8-10kg EZ bar"
+                    },
+                    {
+                        "name": "Skull Crushers",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "10-12kg"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Upper body stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Arm stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "55 min",
+                "focus": "Upper Body"
+            }
+        },
+        {
+            "day": 26,
+            "date": "2025-12-13",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Full body dynamic swings",
+                        "duration": "4 min"
+                    },
+                    {
+                        "name": "Light bike or rower",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Sumo Deadlift",
+                        "sets": 4,
+                        "reps": "8-10",
+                        "rest": "120s",
+                        "estimated_weight": "55-65kg",
+                        "notes": "Variety from conventional"
+                    },
+                    {
+                        "name": "Incline DB Press",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "12-15kg DBs"
+                    },
+                    {
+                        "name": "Hack Squat Machine",
+                        "sets": 4,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "50-60kg"
+                    },
+                    {
+                        "name": "Pull-Ups (assisted)",
+                        "sets": 4,
+                        "reps": "8-10",
+                        "rest": "60s",
+                        "estimated_weight": "assisted 20kg"
+                    },
+                    {
+                        "name": "Lateral Raises",
+                        "sets": 4,
+                        "reps": "12-15",
+                        "rest": "60s",
+                        "estimated_weight": "5-7kg DBs"
+                    },
+                    {
+                        "name": "Hanging Leg Raises",
+                        "sets": 4,
+                        "reps": "10-15",
+                        "rest": "45s",
+                        "estimated_weight": "bodyweight"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Full body stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Deep breathing",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "60 min",
+                "focus": "Full Body"
+            }
+        },
+        {
+            "day": 27,
+            "date": "2025-12-14",
+            "type": "rest"
+        },
+        {
+            "day": 28,
+            "date": "2025-12-15",
+            "type": "rest"
+        },
+        {
+            "day": 29,
+            "date": "2025-12-16",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Barbell Bench Press",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "20-25kg"
+                    },
+                    {
+                        "name": "Seated Overhead Press",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "10-12kg"
+                    },
+                    {
+                        "name": "Incline DB Press",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "10-12kg DBs"
+                    },
+                    {
+                        "name": "Tricep Pushdowns",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "12-15kg"
+                    },
+                    {
+                        "name": "Lateral Raises",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "4-6kg DBs"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Chest and shoulder stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Tricep stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "45 min",
+                "focus": "Push"
+            }
+        },
+        {
+            "day": 30,
+            "date": "2025-12-17",
+            "type": "workout",
+            "workout": {
+                "warm_up": [
+                    {
+                        "name": "Arm circles and swings",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Light rowing machine",
+                        "duration": "5 min"
+                    }
+                ],
+                "exercises": [
+                    {
+                        "name": "Lat Pulldown",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "90s",
+                        "estimated_weight": "35-45kg"
+                    },
+                    {
+                        "name": "Seated Cable Row",
+                        "sets": 3,
+                        "reps": "10-12",
+                        "rest": "60s",
+                        "estimated_weight": "25-30kg"
+                    },
+                    {
+                        "name": "Single Arm DB Row",
+                        "sets": 3,
+                        "reps": "10-12 per arm",
+                        "rest": "60s",
+                        "estimated_weight": "10-12kg DB"
+                    },
+                    {
+                        "name": "Face Pulls",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "12kg"
+                    },
+                    {
+                        "name": "DB Bicep Curls",
+                        "sets": 3,
+                        "reps": "12-15",
+                        "rest": "45s",
+                        "estimated_weight": "8kg DBs"
+                    }
+                ],
+                "cooldown": [
+                    {
+                        "name": "Upper back stretch",
+                        "duration": "3 min"
+                    },
+                    {
+                        "name": "Bicep and forearm stretch",
+                        "duration": "2 min"
+                    }
+                ],
+                "estimated_duration": "45 min",
+                "focus": "Pull"
+            }
+        }
+    ]
+}

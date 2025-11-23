@@ -9,8 +9,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential curl && rm -rf /var/lib/apt/lists/*
 
 # Create and activate virtual environment
-RUN python -m venv /app/.venv
-ENV PATH="/app/.venv/bin:$PATH"
+RUN python -m venv /opt/.venv
+ENV PATH="/opt/.venv/bin:$PATH"
 
 # Copy requirements
 COPY requirements.txt .
@@ -29,4 +29,4 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
 EXPOSE 8000
 
 # Default command (can be overridden by compose)
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]

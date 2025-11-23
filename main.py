@@ -1,26 +1,18 @@
-import json
-from fastapi import FastAPI, Depends
-from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy import text
-import asyncio
+import os, requests, json
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import requests
 from fastapi import HTTPException
-import os
-from dotenv import load_dotenv
 
-def load_config():
-    env = os.getenv('ENVIRONMENT', 'development')
-    
-    if env == 'production':
-        # In production, rely on k8s ENV vars, .env is backup
-        load_dotenv('.env.production', override=False)
-    else:
-        # In development, use .env file
-        load_dotenv('.env.development', override=True)
+from config.my_logger import get_logger
+from config.env_vars import load_config
+
+# Route imports
+from routes.users import userRoutes
+from routes.authentticate import authRoutes
+from routes.workouts import workoutRoutes
 
 load_config()
+logger = get_logger(__name__, "main")
 
 N8N_WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL")
 DATABASE_URL = os.getenv("DATABASE_URL")
@@ -32,17 +24,16 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[FRONTEND_URL],  # Frontend origin
     allow_credentials=True,
-    allow_methods=["*"],  # Allow all HTTP methods
+    allow_methods=["*"],  # Allow all HTTP methods 
     allow_headers=["*"],  # Allow all headers
 )
 
-engine = create_async_engine(DATABASE_URL, echo=True)
-async_session = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)
+# Include routes here
+app.include_router(userRoutes)
+app.include_router(authRoutes)
+app.include_router(workoutRoutes)
 
-async def get_session():
-    async with async_session() as session:
-        yield session
-
+# TEST ENDPOINTS
 @app.get("/hello-world")
 def read_root():
     return {"message": "Hello World"}
@@ -56,14 +47,10 @@ def environment_check():
     return {
         "ENVIRONMENT": os.getenv("ENVIRONMENT"),
         "MANDONG_HELLO": os.getenv("MANDONG_HELLO"),
-        "ENV_ENVIRONMENT": os.getenv("ENV_ENVIRONMENT")
+        "ENV_ENVIRONMENT": os.getenv("ENV_ENVIRONMENT"),
+        "FRONTEND_URL" : FRONTEND_URL
     }
 
-@app.get("/users")
-async def get_users(session: AsyncSession = Depends(get_session)):
-    result = await session.execute(text("SELECT * FROM fitness.users"))
-    users = result.mappings().fetchall()
-    return {"users": [dict(row) for row in users]}
 @app.get("/call-n8n-sync")
 def call_n8n_webhook_sync():
     """
