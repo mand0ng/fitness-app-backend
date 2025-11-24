@@ -1,3 +1,4 @@
+
 """
 Routes for workout management.
 """
@@ -78,19 +79,19 @@ async def create_user_workout(
             content={"status":"error", "message":"No user found."}
         )
     
-    # if not is_user_done_onboarding(user):
-    #     return JSONResponse(
-    #         status_code=200,
-    #         content={"status": "error", "message": "User not complete details. "}
-    #     )
+    if not is_user_done_onboarding(user):
+        return JSONResponse(
+            status_code=200,
+            content={"status": "error", "message": "User not complete details. "}
+        )
     
     workout_service = WorkoutService(session)
 
     # check first if user has workout data
     # when testing comment this out
-    # workout = await workout_service.get_user_workout(user.id)
-    # if workout is not None:
-    #     return JSONResponse(status_code=200, content={"status":"error", "message":"User already has a workout."})
+    workout = await workout_service.get_user_workout(user.id)
+    if workout is not None:
+        return JSONResponse(status_code=200, content={"status":"error", "message":"User already has a workout."})
 
     # create workout job
     workout_job_id = await workout_service.create_user_workout(user.id, background_tasks)
