@@ -10,6 +10,7 @@ from config.env_vars import load_config
 from routes.users import userRoutes
 from routes.authentticate import authRoutes
 from routes.workouts import workoutRoutes
+from routes.social_auth import socialAuthRoutes
 
 load_config()
 logger = get_logger(__name__, "main")
@@ -32,6 +33,7 @@ app.add_middleware(
 app.include_router(userRoutes)
 app.include_router(authRoutes)
 app.include_router(workoutRoutes)
+app.include_router(socialAuthRoutes)
 
 # TEST ENDPOINTS
 @app.get("/hello-world")
