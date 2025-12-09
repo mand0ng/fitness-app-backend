@@ -223,11 +223,33 @@ class SherlockAI:
         response = self.client.chat.completions.create(
             model=self.model_name,
             messages=prompt_template,
-            # response_format=self.json_response_schema_template,  # ENABLED!
             temperature=0.1
         )
         
         content = response.choices[0].message.content
+        
+        # DIAGNOSTIC LOGGING:
+        logger.info(f"=== API RESPONSE DEBUG ===")
+        logger.info(f"Content type: {type(content)}")
+        logger.info(f"Content is None: {content is None}")
+        logger.info(f"Content length: {len(content) if content else 0}")
+        logger.info(f"First 500 chars: {content[:500] if content else 'EMPTY/NONE'}")
+        logger.info(f"Full response object: {response}")
+        
+        if content.strip().startswith('```'):
+            # Remove ```json or ``` from start and ``` from end
+            content = content.strip()
+            if content.startswith('```json'):
+                content = content[7:]  # Remove ```json
+            elif content.startswith('```'):
+                content = content[3:]   # Remove ```
+            
+            if content.endswith('```'):
+                content = content[:-3]  # Remove trailing ```
+            
+            content = content.strip()
+            logger.info(f"Stripped markdown wrapper. New length: {len(content)}")
+    
         minified = self.get_minified_json(content)
         logger.info(f"API Response: {minified[:200]}...")  # Log snippet
         return minified
@@ -241,6 +263,29 @@ class SherlockAI:
             temperature=0.1
         )
         content = response.choices[0].message.content
+        
+        # DIAGNOSTIC LOGGING:
+        logger.info(f"=== API RESPONSE DEBUG ===")
+        logger.info(f"Content type: {type(content)}")
+        logger.info(f"Content is None: {content is None}")
+        logger.info(f"Content length: {len(content) if content else 0}")
+        logger.info(f"First 500 chars: {content[:500] if content else 'EMPTY/NONE'}")
+        logger.info(f"Full response object: {response}")
+        
+        if content.strip().startswith('```'):
+            # Remove ```json or ``` from start and ``` from end
+            content = content.strip()
+            if content.startswith('```json'):
+                content = content[7:]  # Remove ```json
+            elif content.startswith('```'):
+                content = content[3:]   # Remove ```
+            
+            if content.endswith('```'):
+                content = content[:-3]  # Remove trailing ```
+            
+            content = content.strip()
+            logger.info(f"Stripped markdown wrapper. New length: {len(content)}")
+        
         return self.get_minified_json(content)
 
     async def get_sample_ai_json_response(self) -> str:
